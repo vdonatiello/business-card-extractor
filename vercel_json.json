@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
+      "src": "business_card_app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"
+      "dest": "business_card_app.py"
     }
   ]
 }
